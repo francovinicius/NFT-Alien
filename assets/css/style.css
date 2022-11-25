@@ -1,0 +1,13 @@
+@import url(./navbar.css);
+
+:root {
+    --marca-verde: #21E786;
+    --marca-cinza-escuro: #141B22;
+    --marca-preto: #000000;
+    --base-cinza: #C2C3C5;
+    --base-branco: #FFFFFF;
+}
+
+body {
+    background: var(--marca-preto);
+}
