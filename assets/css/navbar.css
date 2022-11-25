@@ -24,6 +24,22 @@
 
 .menu-navbar {
 
+    font-family: 'Bakbak One', cursive;
+    font-weight: 300;
+
     width: 35px;
     height: 30px;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+
+    width: 50vw;
+    height: 1000vw;
+    margin-top: 3px;
+
+    background: var(--marca-cinza-escuro);
+
+    border-radius: 5px;
 }

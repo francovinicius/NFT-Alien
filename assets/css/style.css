@@ -10,4 +10,5 @@
 
 body {
     background: var(--marca-preto);
+    color: var(--base-branco);
 }
