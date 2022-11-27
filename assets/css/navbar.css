@@ -42,6 +42,17 @@
     background: var(--marca-cinza-escuro);
 
     border-radius: 5px;
+
+    position: absolute;
+    left: -100vw;
+
+    transition: .5s;
+}
+
+.menu-lateral-ativo {
+
+    transition: 0.7s;
+    left: 0;
 }
 
 .menu-lateral-link {
