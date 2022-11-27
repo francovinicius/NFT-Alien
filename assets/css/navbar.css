@@ -25,21 +25,39 @@
 .menu-navbar {
 
     font-family: 'Bakbak One', cursive;
-    font-weight: 300;
 
     width: 35px;
     height: 30px;
+
 }
 
 .menu-lateral {
     display: flex;
     flex-direction: column;
 
-    width: 50vw;
+    width: 40vw;
     height: 1000vw;
     margin-top: 3px;
 
     background: var(--marca-cinza-escuro);
 
     border-radius: 5px;
+}
+
+.menu-lateral-link {
+
+    display: flex;
+
+    width: 40vw;
+    margin-left: 15px;
+    margin-top: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
