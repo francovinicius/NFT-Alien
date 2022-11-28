@@ -1,0 +1,84 @@
+.container-collection {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 50px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.colecao-texto {
+
+    display: flex;
+
+    width: 100%;
+    height: 56px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    line-height: 56px;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.step-colecao-uniao {
+
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.step-colecao {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 330px;
+    height: 378px;
+    background: var(--marca-cinza-escuro);
+    border-radius: 10px;
+}
+
+.step-img-colecao {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.img-personagem {
+    display: flex;
+    margin-top: 20px;
+    width: 290px;
+    height: 290px;  
+}
+
+.descricao-personagem {
+
+    display: flex;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}

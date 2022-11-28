@@ -1,16 +1,18 @@
 @import url(./navbar.css);
 @import url(./seção-slider.css);
 @import url(./seção-work.css);
+@import url(./seção-coleção.css);
 
 :root {
     --marca-verde: #21E786;
     --marca-cinza-escuro: #141B22;
     --marca-preto: #000000;
+    --bg:#040B11;
     --base-cinza: #C2C3C5;
     --base-branco: #FFFFFF;
 }
 
 body {
-    background: var(--marca-preto);
+    background: var(--bg);
     color: var(--base-branco);
 }
