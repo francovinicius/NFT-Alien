@@ -1,0 +1,109 @@
+.container-about {
+    width: 100%;
+}
+
+.texto-principal-about {
+    width: 226px;
+    height: 56px;
+
+    display: flex;
+
+    width: 100%;
+    height: 56px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    line-height: 56px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.paragrafo-about {
+
+    width: 370px;
+    height: 56px;
+    margin-left: 20px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    color: var(--base-cinza);
+
+    margin-bottom: 30px;
+}
+
+.about-totais {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    margin-left: 10px;
+}
+
+.totais-letras {
+
+    width: 145px;
+    height: 28px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+
+    color: var(--base-cinza);
+}
+
+.totais-numero {
+
+    width: 150px;
+    height: 68px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 68px;
+
+    text-shadow: 0px 4px 16px rgba(255, 255, 255, 0.4)
+}
+
+.posicao-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao-3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin-top: 15px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 8px;
+
+    
+    text-transform: uppercase;
+
+    border: 2px solid var(--marca-verde);
+}

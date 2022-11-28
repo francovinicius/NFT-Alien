@@ -2,6 +2,7 @@
 @import url(./seção-slider.css);
 @import url(./seção-work.css);
 @import url(./seção-coleção.css);
+@import url(./seção-about.css);
 
 :root {
     --marca-verde: #21E786;
