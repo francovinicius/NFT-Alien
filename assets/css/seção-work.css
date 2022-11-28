@@ -1,5 +1,9 @@
 .container-work {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     width: 100%;
 
     margin-top: 30px;
@@ -11,6 +15,14 @@
     
 }
 
+.work-texto-principal{
+    display: flex;
+}
+
+.work-texto-color { 
+    color: var(--marca-verde);
+}
+
 .work-texto {
 
 
@@ -18,7 +30,7 @@
     align-items: center;
     justify-content: center;
 
-    
+
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -26,40 +38,148 @@
 .work-step {
 
     display: flex;
-    flex-direction: row;
-    
-    row-gap: 5px;
+    flex-direction: column;
+    margin-left: -20px;
+    column-gap: 10px;
 }
 
-.step1 {
+.step {
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 
     margin-top: 15px;
     margin-left: 25px;
 
-    width: 160px;
-    height: 130px;
+    width: 320px;
+    height: 210px;
 
     background: var(--marca-cinza-escuro);
+    border-radius: 5px;
 }
 
 .img-step {
-    width: 70px;
+    width: 92px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+
+.texto-step{
+    color: var(--marca-verde);
+    text-transform: uppercase;
+
+    width: 90px;
+    height: 30px;
+
+    font-size: 22px;
+    line-height: 30px;
+
+    text-align: center;
+
+}
+
+.paragrafo-step {
+
+    width: 225px;
+    height: 32px;
+
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.img-step2 {
+    width: 57.7px;
+    height: 72px;
     margin-bottom: 15px;
 }
 
-.texto-step1{
+.texto-step2{
     color: var(--marca-verde);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
 
-    margin-bottom: 7px;
+    width: 90px;
+    height: 30px;
+
+    font-size: 22px;
+    line-height: 30px;
+
+    text-align: center;
+
 }
 
-.paragrafo-step1 {
+.paragrafo-step2 {
+
+    width: 220px;
+    height: 32px;
+
+
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.img-step3 {
+    width: 81.06px;
+    height: 72px;
+    margin-bottom: 30px;
+}
+
+.texto-step3{
+    color: var(--marca-verde);
+    text-transform: uppercase;
+
+    width: 90px;
+    height: 30px;
+
+    font-size: 22px;
+    line-height: 30px;;
+
+    text-align: center;
+
+}
+
+.paragrafo-step3 {
+
+    width: 274px;
+    height: 32px;
+
+
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.img-step4 {
+    width: 72px;
+    height: 68.89px;
+    margin-bottom: 30px;
+}
+
+.texto-step4{
+    color: var(--marca-verde);
+    text-transform: uppercase;
+
+    width: 90px;
+    height: 30px;
+
+    font-size: 22px;
+    line-height: 30px;;
+
+    text-align: center;
+
+}
+
+.paragrafo-step4 {
+
+    width: 206px;
+    height: 32px;
+
+
+    font-size: 24px;
+    line-height: 32px;
 
 }
