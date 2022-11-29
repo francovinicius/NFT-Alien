@@ -5,6 +5,11 @@
     height: 70px;
 }
 
+.navbar-desktop {
+    display: none;
+}
+
+
 .div-logo-menu {
     display: flex;
     align-items: center;
@@ -23,8 +28,6 @@
 }
 
 .menu-navbar {
-
-    font-family: 'Bakbak One', cursive;
 
     width: 35px;
     height: 30px;

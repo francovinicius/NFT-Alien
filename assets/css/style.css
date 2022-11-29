@@ -4,6 +4,7 @@
 @import url(./seção-coleção.css);
 @import url(./seção-about.css);
 @import url(./seção-partner.css);
+@import url(./tablet-desktop.css);
 
 :root {
     --marca-verde: #21E786;
