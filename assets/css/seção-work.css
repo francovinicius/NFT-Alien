@@ -1,5 +1,6 @@
 .container-work {
 
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +17,7 @@
 }
 
 .work-texto-principal{
+    
     display: flex;
 }
 
@@ -39,9 +41,11 @@
 .work-step {
 
     display: flex;
-    flex-direction: column;
-    margin-left: -20px;
-    column-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    /* comporta para a largura da página*/
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .step {
