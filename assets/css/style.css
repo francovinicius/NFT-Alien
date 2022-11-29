@@ -1,8 +1,9 @@
-@import url(./navbar.css);
+@import url(./seção-navbar.css);
 @import url(./seção-slider.css);
 @import url(./seção-work.css);
 @import url(./seção-coleção.css);
 @import url(./seção-about.css);
+@import url(./seção-partner.css);
 
 :root {
     --marca-verde: #21E786;
