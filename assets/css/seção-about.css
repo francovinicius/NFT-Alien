@@ -106,4 +106,63 @@
     text-transform: uppercase;
 
     border: 2px solid var(--marca-verde);
+
+    margin-bottom: 40px;
+}
+
+.about-cards {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about--cards1, .about--cards2 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about--cards {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 330px;
+    height: 252px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    background: var(--marca-cinza-escuro);
+
+}
+
+.cards-titulo {
+
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    height: 32px;
+    margin-bottom: 25px;
+
+    font-size: 24px;
+    line-height: 32px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.cards-texto {
+
+    width: 250px;
+    height: 84px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: var(--base-cinza);
 }
