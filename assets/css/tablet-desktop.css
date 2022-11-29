@@ -8,10 +8,10 @@
 
         display: flex;
         align-items: center;
-        justify-content: space-around;
 
         width: 100%;
         height: 70px;
+        margin-left: 15px;
 
     }
 
@@ -21,6 +21,7 @@
 
         width: 90px;
         height: 20px;
+        margin-right: 20px;
 
     }
 
@@ -40,19 +41,68 @@
         font-style: normal;
         font-weight: 900;
 
-        margin-left: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+
+        margin-left: 10px;
     }
 
     .menu-desktop-link {
+
+        font-size: 8px;
         margin-left: 15px;
     }
 
     .botao-navbar-desktop {
         display: flex;
+        margin-left: 50px;
     }
 
     .menu-desktop-link-botao {
         width: 80px;
         margin-left: 5px;
+    }
+
+    .slider-texto-principal {
+
+        font-size: 36px;
+        line-height: 50px;
+
+        margin-top: -70px;
+    }
+
+    .slider-sub{
+
+        margin-bottom: 20px;
+
+        font-size: 14px;
+        line-height: 20px;
+
+        color: var(--base-cinza);
+    }
+
+    .botao-1{
+        padding: 16px 18px;
+    
+        font-size: 14px;
+        line-height: 8px;
+    }
+    
+    .botao-2 {
+        padding: 16px 18px;
+    
+        font-size: 14px;
+        line-height: 8px;
+    
+    }
+
+    .work-texto, .colecao-texto, .texto-principal-about, .partner-titulo {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .step:hover, .step-colecao:hover, .about--cards:hover {
+        transition: .25s;
+        border: 3px solid var(--marca-verde);
     }
 }

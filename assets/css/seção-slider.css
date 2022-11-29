@@ -19,6 +19,8 @@
 
     width: 80%;
 
+    margin-top: -30px;
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -41,6 +43,8 @@
 
     font-size: 8px;
     line-height: 12px;
+
+    color: var(--base-cinza);
 }
 
 .slider-botao {
