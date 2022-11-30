@@ -5,6 +5,7 @@
     }
 
     /* inicio navbar */
+    
 
     .navbar-desktop {
 
@@ -104,14 +105,14 @@
 
     /*Fim das alterações slider */
 
-    /* Alterações work */
+    /* Alterações textos h2 */
 
     .work-texto, .colecao-texto, .texto-principal-about, .partner-titulo {
         font-size: 28px;
         line-height: 40px;
     }
 
-    /* Fim das alterações work */
+    /* Fim das alterações h2 */
 
     /* Adição de hover*/
 
@@ -121,6 +122,14 @@
     }
 
     /* Fim da adição de hover */
+
+    /* Alterações de espaçamento entre os containers*/
+
+    .container-work, .container-collection, .container-about, .partner {
+        margin-top: 75px;
+    }
+
+    /* Fim das alterações de espaçamento entre os containers*/
 }
 
 @media screen and (min-width: 1024px) {
@@ -166,5 +175,47 @@
     }
 
      /* Fim da navbar */
+
+     /* Alterações slider */
+     
+     .slider-texto-principal {
+
+        font-size: 56px;
+        margin-top: -120px;
+    }
+
+    .slider-sub{
+
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+
+        color: var(--base-cinza);
+    }
+
+    .botao-1{
+        padding: 20px 18px;
+    
+        font-size: 16px;
+        line-height: 8px;
+    }
+    
+    .botao-2 {
+        padding: 20px 18px;
+    
+        font-size: 16px;
+        line-height: 8px;
+    
+    }
+
+    /*Fim das alterações slider */
+
+    /* Alterações textos h2 */
+
+    .work-texto, .colecao-texto, .texto-principal-about, .partner-titulo {
+        font-size: 36px;
+    }
+
+    /* Fim das alterações h2 */
 
 }
