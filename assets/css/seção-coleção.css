@@ -26,18 +26,14 @@
     letter-spacing: 0.1em;
 }
 
-.step-colecao-uniao {
-
-    width: 100%;
-    margin-left: 10px;
-    margin-bottom: 15px;
-
+.div-uniao-collection {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
+/*manter coluna*/
 .step-colecao {
 
     display: flex;
