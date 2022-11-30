@@ -122,15 +122,19 @@
 .about-cards {
 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 .about--cards1, .about--cards2 {
 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .about--cards {
@@ -142,8 +146,7 @@
 
     width: 330px;
     height: 252px;
-    margin-bottom: 15px;
-    margin-left: 25px;
+    margin-bottom: 5px;
     background: var(--marca-cinza-escuro);
 
 }
