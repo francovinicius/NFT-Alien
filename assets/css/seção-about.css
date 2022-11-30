@@ -1,17 +1,29 @@
 .container-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
+ /*   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;*/
+}
+
+.about-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+
 }
 
 .texto-principal-about {
-    width: 226px;
-    height: 56px;
-
     display: flex;
 
     width: 100%;
     height: 56px;
     margin-top: 30px;
-    margin-left: 20px;
 
     font-size: 20px;
     line-height: 56px;
@@ -26,9 +38,8 @@
 
 .paragrafo-about {
 
-    width: 370px;
+    width: 100%;
     height: 56px;
-    margin-left: 20px;
 
 
     font-family: 'Poppins';
@@ -45,15 +56,13 @@
 
 .about-totais {
     display: flex;
-    justify-content: space-around;
 
     width: 100%;
-    margin-left: 10px;
 }
 
 .totais-letras {
 
-    width: 145px;
+    width: 100%;
     height: 28px;
 
     font-weight: 400;
