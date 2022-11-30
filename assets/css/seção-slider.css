@@ -9,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     
-    margin-top: -35px;
 }
 
 .slider-texto-principal {
@@ -35,7 +34,7 @@
 .slider-sub {
 
     display: flex;
-    justify-content: flex;
+    justify-content: center;
     align-items: center;
 
     width: 65%;
