@@ -1,8 +1,10 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 720px) {
 
     body {
         width: 100%;
     }
+
+    /* inicio navbar */
 
     .navbar-desktop {
 
@@ -49,7 +51,7 @@
 
     .menu-desktop-link {
 
-        font-size: 8px;
+        font-size: 14px;
         margin-left: 15px;
     }
 
@@ -62,6 +64,10 @@
         width: 80px;
         margin-left: 5px;
     }
+
+     /* Fim da navbar */
+
+     /* Alterações slider */
 
     .slider-texto-principal {
 
@@ -96,13 +102,69 @@
     
     }
 
+    /*Fim das alterações slider */
+
+    /* Alterações work */
+
     .work-texto, .colecao-texto, .texto-principal-about, .partner-titulo {
         font-size: 28px;
         line-height: 40px;
     }
 
+    /* Fim das alterações work */
+
+    /* Adição de hover*/
+
     .step:hover, .step-colecao:hover, .about--cards:hover {
         transition: .25s;
         border: 3px solid var(--marca-verde);
     }
+
+    /* Fim da adição de hover */
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* inicio navbar */
+
+    .navbar-desktop {
+
+        justify-content: space-around;
+    }
+
+    .logo-navbar-desktop {
+
+        width: 150px;
+        height: 30px;
+
+        margin-right: 0;
+
+    }
+
+    .menu-navbar-desktop {
+
+        display: flex;
+        align-items: center;  
+        gap: 15px;  
+    }
+
+    .menu-desktop-link {
+
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .botao-navbar-desktop {
+        display: flex;
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .menu-desktop-link-botao {
+        width: 100px;
+        margin-left: 0px;
+    }
+
+     /* Fim da navbar */
+
 }
