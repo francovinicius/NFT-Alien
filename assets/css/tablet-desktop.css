@@ -217,5 +217,21 @@
     }
 
     /* Fim das alterações h2 */
+}
+
+@media screen and (min-width: 1300px) {
+
+    /* Alterações About */
+
+    .about-historia {  
+        width: 40%;
+    }
+
+    .about-cards {
+        width: 40%;
+    }
+
+    /* Fim das alterações About*/
 
 }
+
