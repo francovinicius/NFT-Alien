@@ -41,3 +41,7 @@
 
     width: 80%;
 }
+
+.seção-secreta {
+    display: none;
+}
