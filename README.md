@@ -1,3 +1,5 @@
+![Meu Projeto](https://github.com/francovinicius/NFT-Alien/blob/main/assets/img/NFT-Alien-.svg)
+
 # Projeto - NFT-Alien
 
 O projeto NFT-Alien é um site responsivo desenvolvido para explorar o conceito de NFTs (Non-Fungible Tokens) por meio de uma temática alienígena divertida. O site pode ser acessado através do link [https://nft-alien.vercel.app/](https://nft-alien.vercel.app/).
